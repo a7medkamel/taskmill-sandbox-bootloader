@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "breadboard_sandbox_bootloader": "bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a7medkamel/taskmill-sandbox-bootloader.git"
