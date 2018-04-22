@@ -1,0 +1,33 @@
+{
+  "name": "taskmill-sandbox-bootloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a7medkamel/taskmill-sandbox-bootloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a7medkamel/taskmill-sandbox-bootloader/issues"
+  },
+  "homepage": "https://github.com/a7medkamel/taskmill-sandbox-bootloader#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config": "^1.29.4",
+    "create-output-stream": "0.0.1",
+    "http-proxy": "^1.16.2",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0",
+    "on-finished": "^2.3.0",
+    "response-time": "^2.3.2",
+    "tailf.io-sdk": "git+https://github.com/a7medkamel/tailf.io-sdk.git",
+    "tar-fs": "^1.16.0",
+    "taskmill-core-codedb-sdk": "git+https://github.com/a7medkamel/taskmill-core-codedb-sdk.git",
+    "wait-on": "^2.1.0"
+  }
+}

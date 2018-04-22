@@ -1,0 +1,11 @@
+{
+  "sandbox" : {
+    "secret" : "[SECRET]",
+    "tailf" : null,
+    "cmd" : "taskmill-sandbox-lang-nodejs",
+    "args" : []
+  },
+  "codedb" : {
+    "url": "http://code.breadboard.io:8585"
+  }
+}
