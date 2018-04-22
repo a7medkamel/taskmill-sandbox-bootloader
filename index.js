@@ -22,7 +22,7 @@ process.on('uncaughtException', (err) => {
 });
 
 function main() {
-  let { secret, tailf, cmd, args } = config.get('sandbox');
+  let { secret, cmd, args, tailf } = config.get('sandbox');
 
   (new Loader(cmd, { secret, args }))
     .boot({ })

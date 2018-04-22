@@ -1,0 +1,9 @@
+{
+  "sandbox": {
+    "secret": null,
+    "tailf": null,
+    "cmd": "breadboard_sandbox_lang_nodejs",
+    "args": [],
+    "cwd": "/src"
+  }
+}
