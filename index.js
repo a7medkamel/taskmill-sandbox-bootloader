@@ -1,5 +1,6 @@
 var Promise       = require('bluebird')
   , config        = require('config')
+  , { Log }       = require('tailf.io-sdk')
   , Loader        = require('./lib/loader')
   ;
 
@@ -22,10 +23,17 @@ process.on('uncaughtException', (err) => {
 });
 
 function main() {
-  let { secret, cmd, args, tailf } = config.get('sandbox');
+  let { secret, cmd, args, tailf, blob, blob_type, filename } = config.get('sandbox');
 
-  (new Loader(cmd, { secret, args }))
-    .boot({ })
+  Promise
+    .try(() => {
+      if (tailf) {
+        return Log.open(tailf);
+      }
+    })
+    .then(() => {
+      return (new Loader(cmd, { secret, args, log })).exec({ blob, blob_type, filename });
+    })
     .catch((err) => {
       console.error(err);
       process.exit(1);
