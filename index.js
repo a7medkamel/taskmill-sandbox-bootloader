@@ -31,7 +31,7 @@ function main() {
         return Log.open(tailf);
       }
     })
-    .then(() => {
+    .then((log) => {
       return (new Loader(cmd, { secret, args, log })).exec({ blob, blob_type, filename });
     })
     .catch((err) => {
