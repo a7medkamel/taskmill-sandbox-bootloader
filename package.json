@@ -1,5 +1,5 @@
 {
-  "name": "taskmill-sandbox-bootloader",
+  "name": "sandbox-bootloader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a7medkamel/taskmill-sandbox-bootloader.git"
+    "url": "git+https://github.com/breadboard-xyz/sandbox-bootloader.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a7medkamel/taskmill-sandbox-bootloader/issues"
+    "url": "https://github.com/breadboard-xyz/sandbox-bootloader/issues"
   },
-  "homepage": "https://github.com/a7medkamel/taskmill-sandbox-bootloader#readme",
+  "homepage": "https://github.com/breadboard-xyz/sandbox-bootloader#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
     "config": "^1.29.4",
