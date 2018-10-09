@@ -2,7 +2,7 @@
   "sandbox": {
     "secret": null,
     "tailf": null,
-    "cmd": "breadboard_sandbox_lang_nodejs",
+    "cmd": "breadboard_sandbox_nodejs",
     "args": [],
     "cwd": "/src"
   }
